@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'HelveticaNeueBold';
+	src: url(/fonts/HelveticaNeueBold.otf);
+}
+
+@font-face {
+	font-family: 'HelveticaNeueBlack';
+	src: url(/fonts/HelveticaNeueBlack.otf);
+}
+
+@font-face {
+	font-family: 'HelveticaNeueHeavy';
+	src: url(/fonts/HelveticaNeueHeavy.otf);
+}
+@font-face {
+	font-family: 'HelveticaNeueLight';
+	src: url(/fonts/HelveticaNeueLight.otf);
+}
+@font-face {
+	font-family: 'HelveticaNeueMedium';
+	src: url(/fonts/HelveticaNeueMedium.otf);
+}
+
+@theme {
+	--font-helvetica-neue-bold: HelveticaNeueBold;
+	--font-helvetica-neue-black: HelveticaNeueBlack;
+	--font-helvetica-neue-heavy: HelveticaNeueHeavy;
+	--font-helvetica-neue-light: HelveticaNeueLight;
+	--font-helvetica-neue-medium: HelveticaNeueMedium;
+
+	--color-regal-red: #c70c2c;
+	--color-blue-sky: #143c64;
+}
