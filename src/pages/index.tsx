@@ -35,7 +35,7 @@ function App() {
 			],
 		},
 		{
-			header: 'How are startups selected?',
+			header: 'How are businesses selected?',
 			desc: [
 				'Businesses are selected based on their growth potential, market traction, and alignment with programme goals. A rigorous and transparent evaluation process ensures fairness.',
 			],
@@ -61,7 +61,7 @@ function App() {
 		},
 
 		{
-			header: 'Can startups outside Lagos apply?',
+			header: 'Can businesses outside Lagos apply?',
 			desc: [
 				'Yes! Business Growth Initiative for Startups aims to support businesses from all regions of Nigeria to foster a diverse and inclusive ecosystem.',
 			],
@@ -101,7 +101,13 @@ function App() {
 				<motion.button
 					className="mt-8 bg-[#143C64] text-white px-6 py-3 rounded-lg text-sm font-medium flex items-center gap-x-1 "
 					whileHover={{ scale: 1.05 }}>
-					Apply Now <Icon icon="mynaui:arrow-right" width="24" height="24" />
+					<a
+						href="https://docs.google.com/forms/d/e/1FAIpQLSfPLQcyexBBvyEDAw_99QITpBjtzBTrPUhvsevEHPIrUPCjJA/viewform?usp=dialog"
+						target="_blank"
+						rel="noopener noreferrer">
+						Apply Now{' '}
+					</a>{' '}
+					<Icon icon="mynaui:arrow-right" width="24" height="24" />
 				</motion.button>
 			</div>
 
