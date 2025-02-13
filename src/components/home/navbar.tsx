@@ -56,7 +56,13 @@ export default function Navbar() {
 				))}
 			</ul>
 			<button className="bg-gradient-to-br from-blue-sky via-blue-sky to-regal-red text-white px-4 py-2 rounded-md font-helvetica-neue-medium text-sm flex items-center gap-x-1">
-				Register Now <Icon icon="mynaui:arrow-right" width="24" height="24" />
+				<a
+					href="https://docs.google.com/forms/d/e/1FAIpQLSfPLQcyexBBvyEDAw_99QITpBjtzBTrPUhvsevEHPIrUPCjJA/viewform?usp=dialog"
+					target="_blank"
+					rel="noopener noreferrer">
+					Register Now{' '}
+				</a>{' '}
+				<Icon icon="mynaui:arrow-right" width="24" height="24" />
 			</button>
 			<FaBars className="md:hidden text-xl" />
 		</motion.nav>

@@ -20,7 +20,13 @@ const HeroSection = () => {
 						</p>
 						<button className="bg-white text-navy-900 px-6 py-3 rounded-lg text-sm font-medium ">
 							<p className="bg-gradient-to-br from-blue-sky via-blue-sky to-regal-red text-transparent bg-clip-text flex items-center gap-x-2">
-								Register Now <span className="text-xl">→</span>
+								<a
+									href="https://docs.google.com/forms/d/e/1FAIpQLSfPLQcyexBBvyEDAw_99QITpBjtzBTrPUhvsevEHPIrUPCjJA/viewform?usp=dialog"
+									target="_blank"
+									rel="noopener noreferrer">
+									Register Now{' '}
+								</a>
+								<span className="text-xl">→</span>
 							</p>
 						</button>
 					</motion.div>

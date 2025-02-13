@@ -13,27 +13,34 @@ function App() {
 		{
 			header: 'What is the BGIS programme about?',
 			desc: [
-				'The Business Growth Initiative for Startups (BGIS) is a programme designed to empower growth-stage startups in Nigeria by providing tailored support, mentorship, and resources to scale sustainably and profitably.',
+				'The Business Growth Initiative for Startups is a programme designed to empower growth-stage business in Nigeria by providing tailored support, mentorship, and resources to scale sustainably and profitably.',
 			],
 		},
 		{
 			header: 'Who can apply?',
 			desc: [
-				'The programme is open to growth-stage startups operating in Nigeria with proven business models and operational traction.',
+				'The programme is open to growth-stage businesses operating in Nigeria with proven business models and operational traction.',
 			],
 		},
 		{
 			header: 'What are the benefits of participating?',
 			desc: [
-				'Participants will receive expert-driven support, access to international consultants, capacity-building workshops, branding sessions, and post-programme monitoring. Startups will also gain visibility through media coverage and events.',
+				'Participants will receive expert-driven support, access to international consultants, capacity-building workshops, branding sessions, and post-programme monitoring. Businesses will also gain visibility through media coverage and events.',
+			],
+		},
+		{
+			header: 'Are there any fees to participate?',
+			desc: [
+				'No, the programme is fully funded by UK International Development, making it free for selected participants.',
 			],
 		},
 		{
 			header: 'How are startups selected?',
 			desc: [
-				'Startups are selected based on their growth potential, market traction, and alignment with programme goals. A rigorous and transparent evaluation process ensures fairness.',
+				'Businesses are selected based on their growth potential, market traction, and alignment with programme goals. A rigorous and transparent evaluation process ensures fairness.',
 			],
 		},
+
 		{
 			header: "What is the programme's duration?",
 			desc: [
@@ -41,7 +48,7 @@ function App() {
 			],
 		},
 		{
-			header: 'When will the programme take place?',
+			header: 'Where will the programme take place?',
 			desc: [
 				'The programme includes both virtual and in-person components, ensuring flexibility while fostering collaboration.',
 			],
@@ -52,16 +59,11 @@ function App() {
 				'Applications are submitted online through our dedicated platform. Ensure you meet the eligibility criteria and provide all required information during submission.',
 			],
 		},
-		{
-			header: 'Are there any fees to participate?',
-			desc: [
-				'No, the programme is fully funded by UK International Development, making it free for selected participants.',
-			],
-		},
+
 		{
 			header: 'Can startups outside Lagos apply?',
 			desc: [
-				'Yes! BGIS aims to support startups from all regions of Nigeria to foster a diverse and inclusive ecosystem.',
+				'Yes! Business Growth Initiative for Startups aims to support businesses from all regions of Nigeria to foster a diverse and inclusive ecosystem.',
 			],
 		},
 	];
