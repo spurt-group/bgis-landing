@@ -39,7 +39,7 @@ export default function Navbar() {
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.5 }}
 			className="container mx-auto px-4 flex justify-between items-center py-4 bg-white text-sm rounded-lg">
-			<img src="/icons/logo.svg" alt="logo" />
+			<img src="/icons/logo.svg" alt="logo" className="w-24" />
 			<ul className="hidden md:flex gap-6">
 				{NavbarLinks.map((link, index) => (
 					<a
