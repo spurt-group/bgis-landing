@@ -26,11 +26,13 @@ const FooterSection = () => {
 						/>
 					</div>
 					<div className="flex justify-center mt-8">
-						<button className="bg-white px-6 py-3 rounded-full text-sm font-medium">
-							<p className="bg-gradient-to-br from-blue-sky via-blue-sky to-regal-red text-transparent px-4 rounded-md font-helvetica-neue-medium bg-clip-text text-sm">
+						<a
+							href="mailto:bgis@spurt.group"
+							className="bg-white px-6 py-3 rounded-full text-sm font-medium hover:scale-105 transition-all">
+							<p className="bg-gradient-to-br from-blue-sky via-blue-sky to-regal-red text-transparent px-4 rounded-md font-helvetica-neue-medium bg-clip-text text-sm ">
 								Contact Us
 							</p>
-						</button>
+						</a>
 					</div>
 				</div>
 				<div className="flex gap-8 mt-10 text-base justify-center border-b border-white/20 pb-4">
@@ -66,27 +68,25 @@ const FooterSection = () => {
 
 						<div className="flex flex-wrap items-center gap-x-6">
 							{[
-								{
-									icon: 'ri:linkedin-fill',
-									href: '',
-								},
-								{
-									icon: 'basil:facebook-solid',
-									href: '',
-								},
+								// {
+								// 	icon: 'ri:linkedin-fill',
+								// 	href: '',
+								// },
+								// {
+								// 	icon: 'basil:facebook-solid',
+								// 	href: 'mailto:bgis@spurt.group',
+								// },
 								{
 									icon: 'ri:instagram-line',
-									href: '',
-								},
-								{
-									icon: 'si:youtube-fill',
-									href: '',
+									href: 'https://www.instagram.com/bgi.startups/',
 								},
 							].map((item, index) => (
 								<button
 									key={index}
-									className="border cursor-pointer rounded-full p-3 flex items-center justify-center">
-									<Icon icon={item.icon} width="20" height="20" color="white" />
+									className="border cursor-pointer rounded-full p-3 flex items-center justify-center hover:bg-white hover:text-black hover:border-white transition-all">
+									<a href={item.href} rel="noopener noreferrer">
+										<Icon icon={item.icon} width="20" height="20" />
+									</a>
 								</button>
 							))}
 						</div>
