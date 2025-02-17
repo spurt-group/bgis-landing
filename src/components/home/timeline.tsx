@@ -14,7 +14,7 @@ const TimelineSection = () => {
 					</h2>
 					<div className=" mx-auto">
 						<h2 className=" text-[#6D737A] font-helvetica-neue-bold">
-							March 7th, 2025
+							March 17th, 2025
 						</h2>
 						<motion.button
 							className="mt-5 bg-[#143C64] cursor-pointer text-white px-6 py-3 rounded-lg text-sm font-medium flex items-center gap-x-1 "
