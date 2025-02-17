@@ -20,7 +20,7 @@ const TimelineSection = () => {
 							className="mt-5 bg-[#143C64] cursor-pointer text-white px-6 py-3 rounded-lg text-sm font-medium flex items-center gap-x-1 "
 							whileHover={{ scale: 1.05 }}>
 							<a
-								href="https://docs.google.com/forms/d/e/1FAIpQLSfPLQcyexBBvyEDAw_99QITpBjtzBTrPUhvsevEHPIrUPCjJA/viewform?usp=dialog"
+								href="https://bgis.innox.africa/auth/register"
 								target="_blank"
 								rel="noopener noreferrer">
 								Apply Now{' '}

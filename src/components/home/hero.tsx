@@ -21,7 +21,7 @@ const HeroSection = () => {
 						<button className="bg-white text-navy-900 px-6 py-3 rounded-lg text-sm font-medium ">
 							<p className="bg-gradient-to-br from-blue-sky via-blue-sky to-regal-red text-transparent bg-clip-text flex items-center gap-x-2">
 								<a
-									href="https://docs.google.com/forms/d/e/1FAIpQLSfPLQcyexBBvyEDAw_99QITpBjtzBTrPUhvsevEHPIrUPCjJA/viewform?usp=dialog"
+									href="https://bgis.innox.africa/auth/register"
 									target="_blank"
 									rel="noopener noreferrer">
 									Register Now{' '}

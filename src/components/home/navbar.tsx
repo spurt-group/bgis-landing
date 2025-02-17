@@ -57,7 +57,7 @@ export default function Navbar() {
 			</ul>
 			<button className="bg-gradient-to-br from-blue-sky via-blue-sky to-regal-red text-white px-4 py-2 rounded-md font-helvetica-neue-medium text-sm flex items-center gap-x-1">
 				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLSfPLQcyexBBvyEDAw_99QITpBjtzBTrPUhvsevEHPIrUPCjJA/viewform?usp=dialog"
+					href="https://bgis.innox.africa/auth/register"
 					target="_blank"
 					rel="noopener noreferrer">
 					Register Now{' '}
