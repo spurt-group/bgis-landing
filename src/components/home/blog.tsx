@@ -13,7 +13,8 @@ const BlogSection = () => {
 		},
 		{
 			image: '/images/image_3.png',
-			title: 'Spurt! teams and other partner gearing to help onboard startups',
+			title:
+				'BGIS Program team and other partner gearing to help onboard startups',
 		},
 		{
 			image: '/images/image_4.png',
