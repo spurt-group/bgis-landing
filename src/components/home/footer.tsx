@@ -78,7 +78,7 @@ const FooterSection = () => {
 								// },
 								{
 									icon: 'ri:instagram-line',
-									href: 'https://www.instagram.com/bgi.startups/',
+									href: 'https://www.instagram.com/bgi_startups/',
 								},
 							].map((item, index) => (
 								<button
