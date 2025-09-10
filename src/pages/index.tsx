@@ -4,9 +4,10 @@ import Benefits from '../components/home/benefits';
 import { Icon } from '@iconify/react/dist/iconify.js';
 import HeroSection from '../components/home/hero';
 import SponsorSection from '../components/home/sponsor';
-import TimelineSection from '../components/home/timeline';
+// import TimelineSection from '../components/home/timeline';
 import BlogSection from '../components/home/blog';
 import FooterSection from '../components/home/footer';
+import Cohort from '../components/home/Cohort';
 
 function App() {
 	const faqs = [
@@ -78,9 +79,10 @@ function App() {
 
 			{/* Sponsors Section */}
 			<SponsorSection />
+			<Cohort />
 
 			{/* Timeline Section */}
-			<TimelineSection />
+			{/* <TimelineSection /> */}
 
 			{/* FAQs Section */}
 			<section className="py-16">
@@ -99,15 +101,15 @@ function App() {
 
 			<div className="flex justify-center items-center py-8">
 				<motion.button
-					className="mt-8 bg-[#143C64] text-white px-6 py-3 rounded-lg text-sm font-medium flex items-center gap-x-1 "
+					className="mt-8 bg-[#143C64] text-white px-6 py-3 rounded-lg text-sm font-medium flex items-center gap-x-2 "
 					whileHover={{ scale: 1.05 }}>
 					<a
 						href="https://bgis.innox.africa/auth/register"
 						target="_blank"
 						rel="noopener noreferrer">
-						Apply Now{' '}
+						Register Now{' '}
 					</a>{' '}
-					<Icon icon="mynaui:arrow-right" width="24" height="24" />
+					<Icon icon="mynaui:arrow-right" width="24" height="24" className='mt-1'/>
 				</motion.button>
 			</div>
 
