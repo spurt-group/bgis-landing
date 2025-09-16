@@ -104,7 +104,7 @@ function App() {
 					className="mt-8 bg-[#143C64] text-white px-6 py-3 rounded-lg text-sm font-medium flex items-center gap-x-2 "
 					whileHover={{ scale: 1.05 }}>
 					<a
-						href="https://bgis.innox.africa/auth/register"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSe2F8pNI8GBKb97-BOUSfKxuP4L2oCmrfKD80DtaiGOCSO2ww/viewform"
 						target="_blank"
 						rel="noopener noreferrer">
 						Register Now{' '}

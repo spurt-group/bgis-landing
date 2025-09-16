@@ -1,6 +1,7 @@
 import Navbar from './navbar';
 import { motion } from 'framer-motion';
 import { fadeInUp } from '../fade_up';
+import hero from "../../assets/images/bgis-hero.jpg"
 
 const HeroSection = () => {
 	return (
@@ -21,7 +22,7 @@ const HeroSection = () => {
 						<button className="bg-white text-navy-900 px-6 py-3 rounded-lg text-sm font-medium ">
 							<p className="bg-gradient-to-br from-blue-sky via-blue-sky to-regal-red text-transparent bg-clip-text flex items-center gap-x-2">
 								<a
-									href="https://bgis.innox.africa/auth/register"
+									href="https://docs.google.com/forms/d/e/1FAIpQLSe2F8pNI8GBKb97-BOUSfKxuP4L2oCmrfKD80DtaiGOCSO2ww/viewform"
 									target="_blank"
 									rel="noopener noreferrer">
 									Register Now{' '}
@@ -35,9 +36,9 @@ const HeroSection = () => {
 						initial={{ opacity: 0, x: 20 }}
 						animate={{ opacity: 1, x: 0 }}>
 						<img
-							src="/images/hero_image.png"
+							src={hero}
 							alt="Business Growth"
-							className="rounded-lg shadow-lg"
+							className="rounded-lg shadow-lg h-120 w-120 object-cover"
 						/>
 					</motion.div>
 				</div>
