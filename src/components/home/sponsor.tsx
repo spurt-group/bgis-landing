@@ -9,7 +9,7 @@ const SponsorSection = () => {
 					<img src="/icons/tech-logo.svg" alt="bgis-logo" className="h-14" />
 					<img src="/icons/uk-logo.svg" alt="uk-logo" className="h-14" />
 					<img src="/icons/ub-logo.svg" alt="bgis-logo" className="h-14" />
-					<img src="/icons/spurt-logo.svg" alt="bgis-logo" className="h-14" />
+					<img src="/icons/spurt-logo.svg" alt="bgis-logo" className="h-16 mt-1" />
 				</div>
 			</div>
 		</section>
