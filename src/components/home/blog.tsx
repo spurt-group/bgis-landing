@@ -14,12 +14,12 @@ const BlogSection = () => {
     {
       image: blog2,
       title: "Beyond Logos and Likes: Brand Building as a Startup’s Superpower",
-      link: "#",
+      link: "https://open.substack.com/pub/bgistartups/p/beyond-logos-and-likes-brand-building?r=6j3u6g&utm_…",
     },
     {
       image: blog3,
       title: "BGIS Kicks Off With a Call to Growth and Scale for Female Founders ",
-      link: "#",
+      link: "https://open.substack.com/pub/bgistartups/p/bgis-kicks-off-with-a-call-to-growth?r=6j3u6g&utm_c…",
     },
     {
       image: "/images/image_4.png",
