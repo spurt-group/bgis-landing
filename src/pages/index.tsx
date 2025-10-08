@@ -8,6 +8,7 @@ import SponsorSection from '../components/home/sponsor';
 import BlogSection from '../components/home/blog';
 import FooterSection from '../components/home/footer';
 import Cohort from '../components/home/Cohort';
+import Gallery from '../components/home/gallery';
 
 function App() {
 	const faqs = [
@@ -80,6 +81,7 @@ function App() {
 			{/* Sponsors Section */}
 			<SponsorSection />
 			<Cohort />
+			<Gallery />
 
 			{/* Timeline Section */}
 			{/* <TimelineSection /> */}

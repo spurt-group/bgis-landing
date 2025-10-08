@@ -53,7 +53,7 @@ const speakerDetails = [
   },
   {
     company: "PocketFood",
-    desc: "Busy individuals and businesses struggle to plan and access nutritious meals. PocketFood offers AI-driven meal planning, subscriptions, and personalized delivery that fit users’ dietary needs and schedules.",
+    desc: "Busy individuals and businesses struggle to plan and access nutritious meals. PocketFood offers AI-driven meal planning, subscriptions, and personalized delivery that fit users' dietary needs and schedules.",
     image: cohort7,
   },
   {
@@ -98,66 +98,90 @@ const speakerDetails = [
   },
 ];
 
-
-
 const Cohort = () => {
   return (
     <section className="py-16 bg-[#F6F9FF] relative overflow-hidden">
-     
-      <img 
-        src={pattern} 
-        alt="background pattern" 
+      <img
+        src={pattern}
+        alt="background pattern"
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
       />
 
-    
       <div className="relative container z-10 max-w-6xl mx-auto px-4">
         <div className="relative w-full flex justify-center">
           <h2 className="bg-gradient-to-r from-[#143C64] to-[#C70C2C] bg-clip-text text-center mx-auto font-bold text-3xl md:text-4xl text-transparent inline-block mb-12">
             BGIS 2025 Cohort
           </h2>
-          <img src={short1} alt="short1" className="absolute -top-9  left-93"/>
+          <img src={short1} alt="short1" className="absolute -top-9  left-93" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 relative px-8 gap-3">
-          {/* First 12 items */}
           {speakerDetails.slice(0, 12).map((item, index) => (
             <div key={index} className="relative">
               <div className="relative">
-                <img src={item.image} alt={item.company} className="w-full"/>
+                <img src={item.image} alt={item.company} className="w-full" />
                 <div className="absolute bg-gradient-to-r from-[#143C64] to-[#C70C2C] text-white italic rounded-[10px] text-center text-[14px] bottom-0 py-2.5 lg:py-1.5 xl:py-2 lg:w-26 right-16 lg:right-0 xl:right-0.5 w-31 xl:w-30 font-semibold">
                   {item.company}
                 </div>
               </div>
+
+              <div className="bg-white p-3 min-h-[165px] rounded-b-lg">
+                <p className="text-sm text-gray-700 font-semibold">
+                  {item.desc}
+                </p>
+              </div>
             </div>
           ))}
-          
-          {/* Last 3 items centered using a container with specific column span */}
+
           <div className="md:col-span-4 flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-3xl">
               {speakerDetails.slice(12, 15).map((item, index) => (
                 <div key={index + 12} className="relative">
                   <div className="relative">
-                    <img src={item.image} alt={item.company} className="w-full"/>
+                    <img
+                      src={item.image}
+                      alt={item.company}
+                      className="w-full"
+                    />
                     <div className="absolute bg-gradient-to-r from-[#143C64] to-[#C70C2C] text-white italic rounded-[10px] text-center text-[14px] bottom-0 py-2.5 lg:py-2 lg:w-29 right-16 lg:right-0 xl:right-0.5 w-31 xl:w-29 font-semibold">
                       {item.company}
                     </div>
+                  </div>
+
+                  <div className="bg-white p-3 min-h-[170px] rounded-b-lg">
+                    <p className="text-sm text-gray-700 font-semibold">
+                      {item.desc}
+                    </p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-          
-          <img src={short2} alt="short2" className="absolute -top-10 -left-3 hidden md:block"/>
-          <img src={short3} alt="short2" className="absolute top-[30%] -right-20 hidden md:block"/>
-          <img src={short4} alt="short2" className="absolute top-[55%] -left-16 hidden md:block"/>
-          <img src={short5} alt="short2" className="absolute bottom-0 right-12 hidden md:block"/>
+
+          <img
+            src={short2}
+            alt="short2"
+            className="absolute -top-10 -left-3 hidden md:block"
+          />
+          <img
+            src={short3}
+            alt="short2"
+            className="absolute top-[30%] -right-20 hidden md:block"
+          />
+          <img
+            src={short4}
+            alt="short2"
+            className="absolute top-[55%] -left-16 hidden md:block"
+          />
+          <img
+            src={short5}
+            alt="short2"
+            className="absolute bottom-0 right-12 hidden md:block"
+          />
         </div>
       </div>
     </section>
-  )
+  );
 };
-
-
 
 export default Cohort;
